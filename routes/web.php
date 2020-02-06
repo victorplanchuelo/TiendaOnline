@@ -31,10 +31,10 @@ Route::get('/', function () {
     return $prod;
 
     */
-$prod = Product::find(1)->category;
-return $prod;
+/*$prod = Product::find(1)->category;
+return $prod;*/
 
-    //return view('welcome');
+    return view('shop.index');
 });
 
 Auth::routes();
