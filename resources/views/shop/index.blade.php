@@ -2,6 +2,11 @@
 
 @section('title','Shop Online')
 
+@section('styles')
+<link rel="stylesheet" type="text/css" href="{{ asset('asset/styles/main_styles.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('asset/styles/responsive.css') }}">
+@endsection
+
 @section('content')
 <div class="super_container_inner">
 		<div class="super_overlay"></div>
